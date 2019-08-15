@@ -4,6 +4,11 @@ body {
 }
 
 /* Common nav styles */
+.left-column {
+	display: flex;
+	align-items: center;
+}
+
 .navigation-wrapper {
 	height: 190px;
 	background-color: #11122b;
