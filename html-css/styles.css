@@ -3,6 +3,10 @@
 	height: 190px;
 	background-color: #11122b;
 	color: #cbcbcb;
+	/* Flewbox container */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .contact-hours-wrapper {
