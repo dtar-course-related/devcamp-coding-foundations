@@ -1,0 +1,59 @@
+/* Footer section styles. */
+.footer-section {
+	height: 400px;
+	background-color: #11122b;
+	color: #cbcbcb;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	/* Flex container */
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-section > .footer-logo img {
+	width: 180px;
+	height: 100%;
+	opacity: 0.5;
+}
+
+
+.footer-section > .contact-hours-wrapper span {
+	margin: 0px 10px;
+	letter-spacing: 2px;
+}
+
+.footer-section > .contact-hours-wrapper > .hours {
+	color: #cea135;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.footer-section > .links-wrapper {
+	margin: 40px 0px;
+}
+
+
+.footer-section > .social-media-wrapper {
+	width: 300px;
+	margin: 40px 0px;
+	/* Flex container */
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-section > .social-media-wrapper a {
+	font-size: 1.5em;
+	color: #cbcbcb;
+	transition: 0.5s;
+}
+
+.footer-section > .social-media-wrapper a:hover {
+	color: #cea135;
+}
+
+.footer-section > .copyright-wrapper {
+	font-size: 0.7em;
+	color: #858585;
+	margin-bottom: 40px;
+}
