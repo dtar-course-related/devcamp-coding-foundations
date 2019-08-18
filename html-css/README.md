@@ -14,3 +14,7 @@ The HTML-CSS Bootcamp course teaches how to build a real-world website using HTM
 * Use CSS best practices with style sheets.
 * Utilize CSS selectors.
 * Incorporate CSS animations, borders, and styling of tables.
+
+## Resources:
+
+Images and a copy of the demo application's code can be found on [GitHub](https://github.com/jordanhudgens/digital-literacy-html-css)
