@@ -41,3 +41,10 @@
 	align-items: center;
 	font-family: "Ubunto Condensed", serif;
 }
+
+.features-section > .columns-wrapper {
+	width: 1000px;
+	/* Flex container. */
+	display: flex;
+	justify-content: space-between;
+}
