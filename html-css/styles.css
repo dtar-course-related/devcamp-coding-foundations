@@ -38,6 +38,8 @@ body {
 
 .navigation-wrapper > .left-column > .contact-hours-wrapper .hours {
 	font-family: 'Ubuntu Condensed', sans-serif;
+	color: #858585;
+	font-size: 0.8em;
 }
 
 /* Center column styles */
