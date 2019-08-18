@@ -3,4 +3,9 @@
 	background-image: url('../images/fries-hero-bg.jpg');
 	padding: 100px;
 	height: 300px;
+	/* Parallax styling. */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
