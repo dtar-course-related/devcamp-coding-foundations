@@ -26,3 +26,12 @@
 	padding: 1px 20px;
 	margin-top: 15px;
 }
+
+/* Features section styles. */
+
+.features-section {
+	height: 400px;
+	background-image: url('../images/fries-multiply-bg.jpg');
+	background-color: #cea135;
+	border-top: 10px solid white;
+}
