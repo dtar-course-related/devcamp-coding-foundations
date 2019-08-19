@@ -7,3 +7,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Slab', serif;
 }
+
+/* Skewed Header section styles. */
+.skewed-header-section {
+	position: relative;
+	height: 400px;
+	overflow: hidden;
+}
+
+.skewed-header-section > .header-bg {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
