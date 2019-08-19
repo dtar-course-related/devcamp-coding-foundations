@@ -30,3 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 	transform: skewY(-6deg);
     transform-origin: top left;
 }
+
+.skewed-header-section > .skewed-header-wrapper {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+}
