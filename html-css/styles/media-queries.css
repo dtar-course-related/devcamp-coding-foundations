@@ -44,11 +44,46 @@
 	}
 
 	.features-section > .columns-wrapper {
-		width: 100%;
 		flex-direction: column;
+		width: 100%;
 	}
 
 	.footer-section {
 		height: 100%;
+	}
+
+	.skewed-header-section > .skewed-header-wrapper > .skewed-header-content {
+		flex-direction: column;
+	}
+
+	.skewed-header-section > .header-bg {
+		background-size: 650px;
+	}
+
+	.page-container {
+		margin-top: 10px;
+		padding-left: 21px;
+		padding-right: 21px;
+	}
+
+	.content-wrapper > #chef {
+		margin: 0px 0px 25px 0px !important;
+		width: 100% !important;
+	}
+
+	.spacer60 {
+		display: none;
+	}
+
+	.square {
+		grid-template-columns: 1fr !important;
+	}
+
+	.square > .img-wrapper {
+		order: 2;
+	}
+
+	.square > .square-text-wrapper {
+		order: 1;
 	}
 }
