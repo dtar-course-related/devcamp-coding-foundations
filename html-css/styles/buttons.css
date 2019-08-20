@@ -1,0 +1,12 @@
+/* Button stylings. */
+.btn {
+	background-color: #cea135;
+	color: #11122b;
+	font-size: 1.25rem;
+	padding: 10px 25px;
+	/* some web-browsers automatically add a border, the following line fixes this behaviour. */
+	border: 1px solid #cea135;
+	border-radius: 2px;
+	outline: none;
+	transition: 0.3s;
+}
