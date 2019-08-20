@@ -43,6 +43,12 @@
 	border-color: #cea135;
 }
 
+.form input:focus + label, .form textarea:focus + label {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(1rem);
+}
+
 .form label {
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -51,6 +57,6 @@
 	display: block;
 	transition: all 0.3s;
 	color: #cea135;
-	/* visibility */
-	/* opacity */
+	visibility: hidden;
+	opacity: 0;
 }
