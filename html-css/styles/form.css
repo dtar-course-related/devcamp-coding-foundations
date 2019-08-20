@@ -16,6 +16,13 @@
 	transition: all 0.3s;
 }
 
+.form input:focus {
+	/* NOTE: The following line removes the Accessibilty focus highlight effect! */
+	outline: none;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+	border-bottom-color: #cea135;
+}
+
 .form textarea {
 	margin-top: 20px;
 	width: 100%;
@@ -27,4 +34,23 @@
 	color: inherit;
 	padding: 1.5rem 2rem;
 	transition: all 0.3s;
+}
+
+.form textarea:focus {
+	/* NOTE: The following line removes the Accessibilty focus highlight effect! */
+	outline: none;
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+	border-color: #cea135;
+}
+
+.form label {
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin-left: 2rem;
+	margin-top: 0.7rem;
+	display: block;
+	transition: all 0.3s;
+	color: #cea135;
+	/* visibility */
+	/* opacity */
 }
