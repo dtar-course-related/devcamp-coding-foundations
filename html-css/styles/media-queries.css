@@ -86,4 +86,19 @@
 	.square > .square-text-wrapper {
 		order: 1;
 	}
+
+	.contact-grid-wrapper {
+		width: 100%;
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+		margin-bottom: 20px;
+	}
+
+	.form input, .form textarea {
+		padding: 1.5em 0rem;
+	}
+
+	.spacer10 {
+		display: none;
+	}
 }
